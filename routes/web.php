@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
+
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/login', 'HomeController@login');
+Route::get('/cart', 'HomeController@cart');
+Route::get('/checkout', 'HomeController@checkout');
+Route::get('/widgets', 'HomeController@widgets');
+Route::get('/loggedin', 'HomeController@loggedin');
+Route::get('/portofolio', 'HomeController@portofolio');
+Route::get('/demo-course', 'HomeController@demo_course');
