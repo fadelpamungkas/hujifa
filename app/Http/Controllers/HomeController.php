@@ -28,7 +28,7 @@ class HomeController extends Controller
 
     public function login()
     {
-        return view('login-register');
+        return view('login');
     }
 
     public function cart()
@@ -36,24 +36,19 @@ class HomeController extends Controller
         return view('cart');
     }
 
-    public function carousel()
+    public function admin()
     {
-        return view('carousel');
+        return view('admin');
     }
 
-    public function checkout()
+    public function about()
     {
-        return view('checkout');
+        return view('about');
     }
 
-    public function widgets()
+    public function rating()
     {
-        return view('widgets');
-    }
-
-    public function loggedin()
-    {
-        return view('index-loggedin');
+        return view('rating');
     }
 
     public function portofolio()
@@ -61,9 +56,9 @@ class HomeController extends Controller
         return view('portofolio');
     }
 
-    public function demo_course()
+    public function single()
     {
-        return view('demo-course');
+        return view('portofolio-single');
     }
 
 }

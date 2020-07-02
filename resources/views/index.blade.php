@@ -26,7 +26,13 @@
 	<!-- Hosting Demo Specific Stylesheet -->
 	<link rel="stylesheet" href="demos/course/css/fonts.css" type="text/css" />
 	<link rel="stylesheet" href="demos/course/course.css" type="text/css" />
-	<!-- / -->
+	<!-- rating -->
+	<link rel="stylesheet" href="css/components/bs-rating.css" type="text/css" />
+
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
 
 	<!-- Document Title
 	============================================= -->
@@ -48,8 +54,8 @@
 
 					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
 						<div id="logo">
-							<a href="/" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
-							<a href="/" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
+							<a href="index.html" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
+							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
 						</div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-line-menu"></span>
@@ -60,16 +66,16 @@
 									<a class="nav-link" href="index.html">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Instructors</a>
+									<a href="portfolio.html" class="nav-link">Desa Wisata</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">Events</a>
+									<a href="forms-job.html" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="#" class="nav-link">About Us</a>
+									<a href="about.html" class="nav-link">Tentang Kami</a>
 								</li>
 								<li class="nav-item">
-									<a href="tel:+62857123456" class="nav-link">Contact Us</a>
+									<a href="tel:+62857123456" class="nav-link">Hubungi Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -85,8 +91,8 @@
 						<div class="header-misc">
 
 							<div class="header-buttons mr-3">
-								<a href="/login" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="/login" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
+								<a href="login-register-3.html" class="button button-rounded button-border button-small m-0">Log In</a>
+								<a href="login-register-3.html" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
 							</div>
 
 						</div>
@@ -100,7 +106,7 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="/login" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
+								<li class="menu-item"><a class="menu-link" href="login-register-3.html" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
 								</li>
 							</ul>
 
@@ -169,7 +175,7 @@
 						<div class="col-lg-20 col-sm-4 col-6 mt-4">
 							<div class="card hover-effect">
 								<img class="card-img" src="demos/course/images/categories/tamansari.jpg" alt="Card image">
-								<a href="portfolio-single-extended.html" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
+								<a href="portfolio-single-thumbs.html" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
 									<span><i class="icon-mouse-pointer"></i>Desa Wisata Taman Sari</span>
 								</a>
 							</div>
@@ -209,7 +215,6 @@
 							<h3>Daftar Kampung Wisata</h3>
 							<span>Dapatkan informasi mengenai beberapa kampung wisata. Anda juga dapat membeli tiket kampung wisata anda di Holiyaay!.</span>
 						</div>
-
 						<div class="clear"></div>
 
 						<div class="row mt-2">
@@ -218,15 +223,15 @@
 							============================================= -->
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="portfolio-single-extended.html"><img class="card-img-top" src="demos/course/images/courses/kasongan.jpg" alt="Card image cap"></a>
+									<a href="portfolio-single-thumbs.html"><img class="card-img-top" src="demos/course/images/courses/tamansari.jpg" alt="Card image cap"></a>
 									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-extended.html">Desa Wisata Kasongan</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Kasongan Kec. Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
+										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Taman Sari</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133</a></p>
+										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
 										<p class="card-text text-black-50 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat</p>
 									</div>
 									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 18.000</div>
+										<div class="badge alert-primary">Rp 15.000</div>
 										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
 									</div>
 								</div>
@@ -236,15 +241,15 @@
 							============================================= -->
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/tamansari.jpg" alt="Card image cap"></a>
+									<a href="portfolio-single-thumbs.html"><img class="card-img-top" src="demos/course/images/courses/kasongan.jpg" alt="Card image cap"></a>
 									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Taman Sari</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
+										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Kasongan</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Kasongan Kec. Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184</a></p>
+										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
 										<p class="card-text text-black-50 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat</p>
 									</div>
 									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 15.000</div>
+										<div class="badge alert-primary">Rp 18.000</div>
 										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
 									</div>
 								</div>
@@ -272,15 +277,15 @@
 							============================================= -->
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/tanjung.jpg" alt="Card image cap"></a>
+									<a href="#"><img class="card-img-top" src="demos/course/images/courses/tembi.jpg" alt="Card image cap"></a>
 									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Tanjung</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Desa Tanjung, Ponason, Donoharjo, Kec. Ngaglik, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55581</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Tembi</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Parangtritis Jl. Tembi No.KM 8,6, Mriyan, Timbulharjo, Kec. Sewon, Bantul, Daerah Istimewa Yogyakarta 55186</a></p>
+										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
 										<p class="card-text text-black-50 mb-1">lorem ipsum</p>
 									</div>
 									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 7.000</div>
+										<div class="badge alert-primary">Rp 18.000</div>
 										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
 									</div>
 								</div>
@@ -321,6 +326,11 @@
 									</div>
 								</div>
 							</div>
+							<div class="col-md-4 mb-5 center">
+							</div>
+							<div class="col-md-4 mb-5 center">
+							<a href="portfolio.html" class="button button-border button-rounded button-fill fill-from-bottom button-black"><span>Show More</span></a>
+						</div>
 						</div>
 					</div>
 
@@ -623,10 +633,49 @@
 	============================================= -->
 	<script src="js/jquery.js"></script>
 	<script src="js/plugins.min.js"></script>
+	<script src="js/components/star-rating.js"></script>
 
 	<!-- Footer Scripts
 	============================================= -->
 	<script src="js/functions.js"></script>
+
+	<script>
+
+		$("#input-7").rating({
+			containerClass: 'is-heart',
+			filledStar: '<i class="icon-heart3"></i>',
+			emptyStar: '<i class="icon-heart-empty"></i>',
+			starCaptions: {0: "Not Rated",1: "Very Poor", 2: "Poor", 3: "Ok", 4: "Good", 5: "Very Good"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-8").rating({
+			containerClass: '',
+			filledStar: '<i class="icon-flag21"></i>',
+			emptyStar: '<i class="icon-flag-alt"></i>',
+			starCaptions: {0: "Not Rated",1: "1 Flags", 2: "2 Flags", 3: "3 Flags", 4: "4 Flags", 5: "5 Flags"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-11").rating({
+			starCaptions: {0: "Not Rated",1: "Very Poor", 2: "Poor", 3: "Ok", 4: "Good", 5: "Very Good"},
+			starCaptionClasses: {0: "text-danger", 1: "text-danger", 2: "text-warning", 3: "text-info", 4: "text-primary", 5: "text-success"},
+		});
+
+		$("#input-13").on("rating.clear", function(event) {
+			$('#rating-notification-message').attr('data-notify-type','error').attr('data-notify-msg', 'Your rating is reset');
+			SEMICOLON.widget.notifications({ el: jQuery('#rating-notification-message') });
+		});
+		$("#input-13").on("rating.change", function(event, value, caption) {
+			$('#rating-notification-message').attr('data-notify-msg', 'You rated: ' + value + ' Stars');
+			SEMICOLON.widget.notifications({ el: jQuery('#rating-notification-message') });
+		});
+
+		$("#input-14").on("rating.change", function(event, value, caption) {
+			$("#input-14").rating("refresh", {disabled: true, showClear: false});
+		});
+
+	</script>
 
 </body>
 </html>

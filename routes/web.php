@@ -22,8 +22,9 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/login', 'HomeController@login');
 Route::get('/cart', 'HomeController@cart');
-Route::get('/checkout', 'HomeController@checkout');
-Route::get('/widgets', 'HomeController@widgets');
-Route::get('/loggedin', 'HomeController@loggedin');
+Route::get('/admin', 'HomeController@admin');
+Route::get('/about', 'HomeController@about');
+Route::get('/rating', 'HomeController@rating');
+Route::get('/forms', 'HomeController@forms');
 Route::get('/portofolio', 'HomeController@portofolio');
-Route::get('/demo-course', 'HomeController@demo_course');
+Route::get('/portofolio-single', 'HomeController@single');
