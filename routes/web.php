@@ -26,5 +26,5 @@ Route::get('/admin', 'HomeController@admin');
 Route::get('/about', 'HomeController@about');
 Route::get('/rating', 'HomeController@rating');
 Route::get('/forms', 'HomeController@forms');
-Route::get('/portofolio', 'HomeController@portofolio');
-Route::get('/portofolio-single', 'HomeController@single');
+Route::get('/portfolio', 'HomeController@portfolio');
+Route::get('/portfolio-single', 'HomeController@single');

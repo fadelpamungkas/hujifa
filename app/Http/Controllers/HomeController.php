@@ -51,14 +51,19 @@ class HomeController extends Controller
         return view('rating');
     }
 
-    public function portofolio()
+    public function forms()
     {
-        return view('portofolio');
+        return view('forms');
+    }
+
+    public function portfolio()
+    {
+        return view('portfolio');
     }
 
     public function single()
     {
-        return view('portofolio-single');
+        return view('portfolio-single');
     }
 
 }

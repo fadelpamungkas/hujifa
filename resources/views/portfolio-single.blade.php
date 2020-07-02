@@ -43,8 +43,8 @@
 
 					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
 						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
 						</div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-line-menu"></span>
@@ -55,16 +55,13 @@
 									<a class="nav-link" href="index.html">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="portfolio.html" class="nav-link">Desa Wisata</a>
+									<a href="/portfolio" class="nav-link">Desa Wisata</a>
 								</li>
 								<li class="nav-item">
-									<a href="forms-job.html" class="nav-link">Daftar</a>
+									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="about.html" class="nav-link">Tentang Kami</a>
-								</li>
-								<li class="nav-item">
-									<a href="tel:+62857123456" class="nav-link">Hubungi Kami</a>
+									<a href="/about" class="nav-link">Tentang Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -80,8 +77,8 @@
 						<div class="header-misc">
 
 							<div class="header-buttons mr-3">
-								<a href="login-register-3.html" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="login-register-3.html" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
+								<a href="/login" class="button button-rounded button-border button-small m-0">Log In</a>
+								<a href="/login" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
 							</div>
 
 						</div>
@@ -95,7 +92,7 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="login-register-3.html" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
+								<li class="menu-item"><a class="menu-link" href="/login" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
 								</li>
 							</ul>
 
@@ -118,7 +115,7 @@
 			<div class="container clearfix">
 				<h1>Desa Wisata Tamansari</h1>
 				<ol class="breadcrumb">
-					<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+					<li class="breadcrumb-item"><a href="/">Home</a></li>
 					<li class="breadcrumb-item active" aria-current="page">Desa Wisata</li>
 				</ol>
 			</div>
@@ -178,7 +175,7 @@
 									<label>Rating : </label>
 									<input id="input-15" class="rating" value="4.5" data-size="sm" data-readonly="true">
 								</div>
-								<a href="rating.html" class="button button-border button-circle button-dark"><i class="icon-star"></i>Beri Rating</a></li>
+								<a href="/rating" class="button button-border button-circle button-dark"><i class="icon-star"></i>Beri Rating</a></li>
 							</div>
 
 
@@ -245,19 +242,19 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/1.jpg" alt="Open Imagination">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
 											<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Open Imagination</a></h3>
+									<h3><a href="/portfolio-single">Open Imagination</a></h3>
 									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
 								</div>
 							</div>
@@ -265,19 +262,19 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
 											<a href="images/portfolio/full/2.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Locked Steel Gate</a></h3>
+									<h3><a href="/portfolio-single">Locked Steel Gate</a></h3>
 									<span><a href="#">Illustrations</a></span>
 								</div>
 							</div>
@@ -291,13 +288,13 @@
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
 											<a href="https://vimeo.com/89396394" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Mac Sunglasses</a></h3>
+									<h3><a href="/portfolio-single">Mac Sunglasses</a></h3>
 									<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
 								</div>
 							</div>
@@ -312,13 +309,13 @@
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
 											<a href="images/portfolio/full/4.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
 											<a href="images/portfolio/full/4-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Morning Dew</a></h3>
+									<h3><a href="/portfolio-single">Morning Dew</a></h3>
 									<span><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
 								</div>
 							</div>
@@ -326,19 +323,19 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/5.jpg" alt="Console Activity">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
 											<a href="images/portfolio/full/5.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Console Activity</a></h3>
+									<h3><a href="/portfolio-single">Console Activity</a></h3>
 									<span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
 								</div>
 							</div>
@@ -346,7 +343,7 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single-gallery.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/6.jpg" alt="Shake It!">
 									</a>
 									<div class="bg-overlay" data-lightbox="gallery">
@@ -355,13 +352,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -369,7 +366,7 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
 									</a>
 									<div class="bg-overlay">
@@ -381,7 +378,7 @@
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Backpack Contents</a></h3>
+									<h3><a href="/portfolio-single">Backpack Contents</a></h3>
 									<span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
 								</div>
 							</div>
@@ -389,19 +386,19 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
 											<a href="images/portfolio/full/8.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Sunset Bulb Glow</a></h3>
+									<h3><a href="/portfolio-single">Sunset Bulb Glow</a></h3>
 									<span><a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -409,7 +406,7 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/9.jpg" alt="Bridge Side">
 									</a>
 									<div class="bg-overlay" data-lightbox="gallery">
@@ -417,13 +414,13 @@
 											<a href="images/portfolio/full/9.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
 											<a href="images/portfolio/full/9-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/9-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single.html">Bridge Side</a></h3>
+									<h3><a href="/portfolio-single">Bridge Side</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
 								</div>
 							</div>
@@ -431,19 +428,19 @@
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
-									<a href="portfolio-single-video.html">
+									<a href="/portfolio-single">
 										<img src="images/portfolio/4/10.jpg" alt="Study Table">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
 											<a href="https://vimeo.com/91973305" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-video.html">Study Table</a></h3>
+									<h3><a href="/portfolio-single">Study Table</a></h3>
 									<span><a href="#">Graphics</a>, <a href="#">Media</a></span>
 								</div>
 							</div>

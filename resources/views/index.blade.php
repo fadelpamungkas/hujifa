@@ -54,8 +54,8 @@
 
 					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
 						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
 						</div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-line-menu"></span>
@@ -66,13 +66,13 @@
 									<a class="nav-link" href="index.html">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="portfolio.html" class="nav-link">Desa Wisata</a>
+									<a href="/portfolio" class="nav-link">Desa Wisata</a>
 								</li>
 								<li class="nav-item">
-									<a href="forms-job.html" class="nav-link">Daftar</a>
+									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="about.html" class="nav-link">Tentang Kami</a>
+									<a href="/about" class="nav-link">Tentang Kami</a>
 								</li>
 								<li class="nav-item">
 									<a href="tel:+62857123456" class="nav-link">Hubungi Kami</a>
@@ -91,8 +91,8 @@
 						<div class="header-misc">
 
 							<div class="header-buttons mr-3">
-								<a href="login-register-3.html" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="login-register-3.html" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
+								<a href="/login" class="button button-rounded button-border button-small m-0">Log In</a>
+								<a href="/login" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
 							</div>
 
 						</div>
@@ -106,7 +106,7 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="login-register-3.html" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
+								<li class="menu-item"><a class="menu-link" href="/login" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
 								</li>
 							</ul>
 
@@ -175,7 +175,7 @@
 						<div class="col-lg-20 col-sm-4 col-6 mt-4">
 							<div class="card hover-effect">
 								<img class="card-img" src="demos/course/images/categories/tamansari.jpg" alt="Card image">
-								<a href="portfolio-single-thumbs.html" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
+								<a href="/portfolio-single" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
 									<span><i class="icon-mouse-pointer"></i>Desa Wisata Taman Sari</span>
 								</a>
 							</div>
@@ -223,7 +223,7 @@
 							============================================= -->
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="portfolio-single-thumbs.html"><img class="card-img-top" src="demos/course/images/courses/tamansari.jpg" alt="Card image cap"></a>
+									<a href="/portfolio-single"><img class="card-img-top" src="demos/course/images/courses/tamansari.jpg" alt="Card image cap"></a>
 									<div class="card-body">
 										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Taman Sari</a></h4>
 										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133</a></p>
@@ -241,7 +241,7 @@
 							============================================= -->
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="portfolio-single-thumbs.html"><img class="card-img-top" src="demos/course/images/courses/kasongan.jpg" alt="Card image cap"></a>
+									<a href="/portfolio-single"><img class="card-img-top" src="demos/course/images/courses/kasongan.jpg" alt="Card image cap"></a>
 									<div class="card-body">
 										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Kasongan</a></h4>
 										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Kasongan Kec. Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184</a></p>
@@ -473,7 +473,7 @@
 								</div>
 								<p class="mb-2">Monotonectally conceptualize covalent strategic theme areas and cross-unit deliverables.</p>
 								<p>Consectetur adipisicing elit. Voluptate incidunt dolorum perferendis accusamus nesciunt et est consequuntur placeat, dolor quia.</p>
-								<a href="forms-job.html" class="button button-rounded button-xlarge ls0 ls0 nott font-weight-normal m-0">Daftar</a>
+								<a href="/forms" class="button button-rounded button-xlarge ls0 ls0 nott font-weight-normal m-0">Daftar</a>
 							</div>
 
 						</div>
@@ -561,7 +561,7 @@
 								<span class="text-black-50">We strive to provide Our Customers with Top Notch Support to make their Theme Experience Wonderful.</span>
 							</div>
 							<div class="col-12 col-lg-auto mt-4 mt-lg-0">
-								<a href="login-register-3.html" class="button button-xlarge button-rounded nott ls0 font-weight-normal m-0">Register Now</a>
+								<a href="/login" class="button button-xlarge button-rounded nott ls0 font-weight-normal m-0">Register Now</a>
 							</div>
 						</div>
 					</div>
