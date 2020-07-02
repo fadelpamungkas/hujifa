@@ -40,8 +40,8 @@
 						<!-- Logo
 						============================================= -->
 						<div id="logo">
-							<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
-							<a href="index.html" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
+							<a href="/" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/logo.png" alt="Canvas Logo"></a>
+							<a href="/" class="retina-logo" data-dark-logo="images/logo-dark@2x.png"><img src="images/logo@2x.png" alt="Canvas Logo"></a>
 						</div><!-- #logo end -->
 
 						<div class="header-misc">
@@ -105,7 +105,7 @@
 
 							<ul class="menu-container">
 								<li class="menu-item">
-									<a class="menu-link" href="index.html"><div>Home</div></a>
+									<a class="menu-link" href="/"><div>Home</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item">
 											<a class="menu-link" href="intro.html#section-niche"><div>Niche Demos</div></a>

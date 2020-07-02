@@ -73,9 +73,6 @@
 								<li class="nav-item">
 									<a href="about.html" class="nav-link">Tentang Kami</a>
 								</li>
-								<li class="nav-item">
-									<a href="tel:+62857123456" class="nav-link">Hubungi Kami</a>
-								</li>
 							</ul>
 						</div>
 					</nav>

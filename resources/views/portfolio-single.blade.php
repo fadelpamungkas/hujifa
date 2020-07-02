@@ -52,7 +52,7 @@
 						<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
-									<a class="nav-link" href="index.html">Home</a>
+									<a class="nav-link" href="/">Home</a>
 								</li>
 								<li class="nav-item">
 									<a href="/portfolio" class="nav-link">Desa Wisata</a>

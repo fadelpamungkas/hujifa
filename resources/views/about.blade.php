@@ -38,8 +38,8 @@
 
 					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
 						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
 						</div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-line-menu"></span>
@@ -47,19 +47,16 @@
 						<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
-									<a class="nav-link" href="index.html">Home</a>
+									<a class="nav-link" href="/">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="portfolio.html" class="nav-link">Desa Wisata</a>
+									<a href="/portfolio" class="nav-link">Desa Wisata</a>
 								</li>
 								<li class="nav-item">
-									<a href="forms-job.html" class="nav-link">Daftar</a>
+									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="about.html" class="nav-link">Tentang Kami</a>
-								</li>
-								<li class="nav-item">
-									<a href="tel:+62857123456" class="nav-link">Hubungi Kami</a>
+									<a href="/about" class="nav-link">Tentang Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -75,8 +72,8 @@
 						<div class="header-misc">
 
 							<div class="header-buttons mr-3">
-								<a href="login-register-3.html" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="login-register-3.html" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
+								<a href="/login" class="button button-rounded button-border button-small m-0">Log In</a>
+								<a href="/login" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
 							</div>
 
 						</div>
@@ -90,7 +87,7 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="login-register-3.html" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
+								<li class="menu-item"><a class="menu-link" href="/login" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
 								</li>
 							</ul>
 

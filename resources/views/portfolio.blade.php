@@ -178,13 +178,13 @@
 											<a href="images/portfolio/full/tembi1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/tembi2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/tembi3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Desa Wisata Tembi</a></h3>
+									<h3><a href="/portfolio-single">Desa Wisata Tembi</a></h3>
 									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
 								</div>
 							</div>
@@ -196,10 +196,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/kasongan.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/kasongan1.png" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/Kasongan2.png" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/Kasongan3.png" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/kasongan.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/kasongan1.png" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/Kasongan2.png" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/Kasongan3.png" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -209,13 +209,13 @@
 											<a href="images/portfolio/full/kasongan1.png" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/kasongan2.png" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/kasongan3.png" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Desa Wisata Kasongan</a></h3>
+									<h3><a href="/portfolio-single">Desa Wisata Kasongan</a></h3>
 									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
 								</div>
 							</div>
@@ -227,10 +227,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/tanjung.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/tanjung1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/tanjung2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/tanjung3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/tanjung.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/tanjung1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/tanjung2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/tanjung3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -240,13 +240,13 @@
 											<a href="images/portfolio/full/tanjung1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/tanjung2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/tanjung3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Desa Wisata Tajung</a></h3>
+									<h3><a href="/portfolio-single">Desa Wisata Tajung</a></h3>
 									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
 								</div>
 							</div>
@@ -257,10 +257,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -270,13 +270,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -288,10 +288,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -301,13 +301,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -319,10 +319,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -332,13 +332,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -350,10 +350,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -363,13 +363,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -381,10 +381,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -394,13 +394,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
@@ -412,10 +412,10 @@
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="portfolio-single-gallery.html"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
@@ -425,13 +425,13 @@
 											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
 											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="portfolio-single-gallery.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
+											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="portfolio-single-gallery.html">Shake It!</a></h3>
+									<h3><a href="/portfolio-single">Shake It!</a></h3>
 									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
 								</div>
 							</div>
