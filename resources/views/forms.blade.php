@@ -53,8 +53,8 @@
 
 					<nav class="navbar navbar-expand-lg p-0 m-0 w-100">
 						<div id="logo">
-							<a href="index.html" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
-							<a href="index.html" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="standard-logo"><img src="demos/course/images/logo1.png" alt="Holiyaay Logo"></a>
+							<a href="/" class="retina-logo"><img src="demos/course/images/logo@2x.png" alt="Holiyaay Logo"></a>
 						</div>
 						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 							<span class="icon-line-menu"></span>
@@ -62,16 +62,16 @@
 						<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 							<ul class="navbar-nav ml-auto">
 								<li class="nav-item active">
-									<a class="nav-link" href="index.html">Home</a>
+									<a class="nav-link" href="/">Home</a>
 								</li>
 								<li class="nav-item">
-									<a href="portfolio.html" class="nav-link">Desa Wisata</a>
+									<a href="/portfolio" class="nav-link">Desa Wisata</a>
 								</li>
 								<li class="nav-item">
-									<a href="forms-job.html" class="nav-link">Daftar</a>
+									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="about.html" class="nav-link">Tentang Kami</a>
+									<a href="/about" class="nav-link">Tentang Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -87,8 +87,8 @@
 						<div class="header-misc">
 
 							<div class="header-buttons mr-3">
-								<a href="login-register-3.html" class="button button-rounded button-border button-small m-0">Log In</a>
-								<a href="login-register-3.html" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
+								<a href="/login" class="button button-rounded button-border button-small m-0">Log In</a>
+								<a href="/login" class="button button-rounded button-small m-0 ml-2">Sign Up</a>
 							</div>
 
 						</div>
@@ -102,7 +102,7 @@
 						<nav class="primary-menu with-arrows">
 
 							<ul class="menu-container">
-								<li class="menu-item"><a class="menu-link" href="login-register-3.html" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
+								<li class="menu-item"><a class="menu-link" href="/login" class="pl-0"><div><i class="icon-line2-login"></i>Login/Sign Up</div></a>
 								</li>
 							</ul>
 
@@ -144,34 +144,36 @@
 
 						<div class="row">
 							<div class="col-lg-6">
-								<form class="row" action="include/form.php" method="post" enctype="multipart/form-data">
+								<form class="row" action="/store" method="post" enctype="multipart/form-data">
+									{{ csrf_field() }}
 									<div class="form-process">
 										<div class="css3-spinner">
 											<div class="css3-spinner-scaler"></div>
 										</div>
 									</div>
-									<div class="col-12 form-group">
+									<!-- <div class="col-12 form-group">
 										<label>Nama:</label>
 										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Masukkan nama lengkap anda">
 									</div>
 									<div class="col-12 form-group">
 										<label>Email:</label>
 										<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Masukkan Email anda">
-									</div>
+									</div> -->
 									<div class="col-12 form-group">
 										<div class="row">
 											<div class="col-md-6 form-group">
-												<label>No Telepon:</label>
-												<input type="text" name="jobs-application-phone" id="jobs-application-phone" class="form-control required" value="" placeholder="Masukkan Nomor Telepon Anda">
+												<label>Nama Desa Wisata:</label>
+												<input type="text" name="nama_wisata" id="jobs-application-name" class="form-control" value="" placeholder="Masukkan nama Desa Wisat anda">
 											</div>
 											<div class="col-md-6 form-group">
-												<label>Nama Desa Wisata:</label>
-												<input type="text" name="jobs-application-namadesa" id="jobs-application-name" class="form-control" value="" placeholder="Masukkan nama Desa Wisat anda">
+												<label>No Telepon:</label>
+												<input type="text" name="contact" id="jobs-application-phone" class="form-control required" value="" placeholder="Masukkan Nomor Telepon Anda">
 											</div>
+
 											<div class="w-100"></div>
 											<div class="col-md-12 form-group">
 												<label>Alamat:</label>
-												<input type="text" name="jobs-application-alamat" id="jobs-application-location" class="form-control" value="" placeholder="Masukkan alamat Desa Wisata anda">
+												<input type="text" name="lokasi" id="jobs-application-location" class="form-control" value="" placeholder="Masukkan alamat Desa Wisata anda">
 											</div>
 											<div class="w-100"></div>
 											<div class="col-md-6 form-group">
@@ -180,23 +182,21 @@
 											</div>
 											<div class="col-md-6 form-group">
 												<label>Harga Tiket:</label>
-												<input type="text" name="jobs-application-hargatiket" id="jobs-application-location" class="form-control" value="" placeholder="contoh : 20.000">
+												<input type="text" name="harga" id="jobs-application-location" class="form-control" value="" placeholder="contoh : 20.000">
 											</div>
 										</div>
 										<div class="form-group">
 											<label>Upload foto desa wisata Anda:</label>
-											<input type="file" id="jobs-application-resume" name="jobs-application-foto" class="file-loading required" data-show-preview="false" />
+											<input type="file" id="jobs-application-resume" name="path" class="file-loading required" data-show-preview="false" />
 										</div>
 										<div class="form-group">
 											<label>Deskripsikan kampung wisata anda:</label>
-											<textarea name="jobs-application-deskripsi" id="jobs-application-message" class="form-control required" cols="30" rows="10"></textarea>
+											<textarea name="description" id="jobs-application-message" class="form-control required" cols="30" rows="10"></textarea>
 										</div>
 									</div>
-									<div class="col-12 d-none">
-										<input type="text" id="jobs-application-botcheck" name="jobs-application-botcheck" value="" />
-									</div>
+
 									<div class="col-12">
-										<button type="submit" name="jobs-application-submit" class="btn btn-secondary">Daftar</button>
+										<button type="submit" name="btnSubmit" class="btn btn-secondary">Daftar</button>
 									</div>
 
 									<input type="hidden" name="prefix" value="jobs-application-">

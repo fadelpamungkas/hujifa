@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use DB; 
 
 class HomeController extends Controller
 {
@@ -23,7 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('index');
+        $wisata = DB::table('tempat_wisata')->get();
+        return view('index')->with('wisata', $wisata);
     }
 
     public function login()
@@ -63,7 +65,30 @@ class HomeController extends Controller
 
     public function single()
     {
-        return view('portfolio-single');
+        $wisata = DB::table('tempat_wisata')->get();
+        return view('portfolio-single')->with('wisata', $wisata);
     }
+
+    public function store(Request $request){
+		if ($request->hasFile('path')){
+
+			$file = $request->file('path');
+			$nama_file = $file->getClientOriginalName();
+			$file->move('images',$nama_file);
+			
+			DB::table('tempat_wisata')->insert([
+				'nama_wisata' => $request->nama_wisata,
+				'harga' => $request->harga,
+				//'jadwal_wisata' => $request->jadwal_wisata,
+				'description' => $request->description,
+				'path' => '/images/'.$file->getClientOriginalName(),
+				'lokasi' => $request->lokasi,
+				'contact_person' => $request->contact
+			]);
+
+		}
+
+		return redirect('/');
+	}
 
 }

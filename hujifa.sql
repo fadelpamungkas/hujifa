@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.2
+-- version 4.9.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 01, 2020 at 08:59 AM
--- Server version: 10.4.10-MariaDB
--- PHP Version: 7.3.12
+-- Generation Time: Jul 02, 2020 at 09:02 PM
+-- Server version: 10.4.8-MariaDB
+-- PHP Version: 7.3.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -58,8 +58,23 @@ CREATE TABLE `tempat_wisata` (
   `nama_wisata` varchar(255) NOT NULL,
   `lokasi` varchar(255) NOT NULL,
   `contact_person` text NOT NULL,
-  `harga` int(11) NOT NULL
+  `harga` int(11) NOT NULL,
+  `path` varchar(255) NOT NULL,
+  `rating` float NOT NULL,
+  `description` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Dumping data for table `tempat_wisata`
+--
+
+INSERT INTO `tempat_wisata` (`id_wisata`, `nama_wisata`, `lokasi`, `contact_person`, `harga`, `path`, `rating`, `description`) VALUES
+(1, 'Desa Wisata Taman Sari', 'Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133', '0812318333123', 15000, 'demos/course/images/categories/tamansari.jpg', 0, ''),
+(2, 'Desa Wisata Manding', 'Jl. Kasongan Kec. Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184', '0812312321', 18000, 'demos/course/images/categories/manding.jpg', 0, ''),
+(3, 'Desa Wisata Kasongan', 'Jl. Parangtritis km 11, atau tepatnya di  Jl. DR Wahidin Sudiro Husodo, Manding, Sabdodadi, Bantul', '08312313191319', 20000, 'demos/course/images/categories/kasongan.jpg', 0, ''),
+(4, 'Desa Wisata Tembi', 'Jl. Parangtritis Jl. Tembi No.KM 8,6, Mriyan, Timbulharjo, Kec. Sewon, Bantul, Daerah Istimewa Yogyakarta 55186', '081231231231', 18000, 'demos/course/images/courses/tembi.jpg', 0, ''),
+(5, 'Desa Wisata Kembang Arum', 'Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551', '08132131284712401', 30000, 'demos/course/images/courses/kembang.jpg', 0, ''),
+(6, 'Desa Wisata Kembang Arum', 'Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551', '081382393819', 18000, 'demos/course/images/courses/kembang.jpg', 0, '');
 
 -- --------------------------------------------------------
 
@@ -145,7 +160,7 @@ ALTER TABLE `review`
 -- AUTO_INCREMENT for table `tempat_wisata`
 --
 ALTER TABLE `tempat_wisata`
-  MODIFY `id_wisata` int(6) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_wisata` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Constraints for dumped tables

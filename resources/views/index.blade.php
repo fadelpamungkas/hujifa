@@ -169,33 +169,16 @@
 					<!-- Categories
 					============================================= -->
 					<div class="row course-categories clearfix mb-4">
+						@foreach($wisata as $w)
 						<div class="col-lg-20 col-sm-4 col-6 mt-4">
 							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/tamansari.jpg" alt="Card image">
-								<a href="/portfolio-single" class="card-img-overlay rounded p-0" style="background-color: rgba(251,51,100,0.8);">
-									<span><i class="icon-mouse-pointer"></i>Desa Wisata Taman Sari</span>
+								<img class="card-img" src="{{ $w->path }}" alt="Card image">
+								<a href="/portfolio-single" class="card-img-overlay rounded p-0" style="background-color: rgba(29,74,103,0.8);">
+									<span><i class="icon-mouse-pointer"></i>{{ $w->nama_wisata }}</span>
 								</a>
 							</div>
 						</div>
-
-						<div class="col-lg-20 col-sm-4 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/manding.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(29,74,103,0.8);">
-									<span><i class="icon-mouse-pointer"></i>Desa Wisata Manding</span>
-								</a>
-							</div>
-						</div>
-
-
-						<div class="col-lg-20 col-sm-4 col-6 mt-4">
-							<div class="card hover-effect">
-								<img class="card-img" src="demos/course/images/categories/kasongan.jpg" alt="Card image">
-								<a href="#" class="card-img-overlay rounded p-0" style="background-color: rgba(50,71,66,0.8);">
-									<span><i class="icon-mouse-pointer"></i>Desa Wisata Kasongan</span>
-								</a>
-							</div>
-						</div>
+						@endforeach
 
 						
 				<!-- Section Courses
@@ -218,111 +201,25 @@
 
 							<!-- Course 1
 							============================================= -->
+							@foreach($wisata as $w)
 							<div class="col-md-4 mb-5">
 								<div class="card course-card hover-effect border-0">
-									<a href="/portfolio-single"><img class="card-img-top" src="demos/course/images/courses/tamansari.jpg" alt="Card image cap"></a>
+									<a href="/portfolio-single"><img class="card-img-top" src="{{ $w->path }}" alt="Card image cap"></a>
 									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Taman Sari</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133</a></p>
+										<h4 class="card-title font-weight-bold mb-2"><a href="/portfolio-single">{{ $w->nama_wisata }}</a></h4>
+										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">{{ $w->lokasi }}</a></p>
 										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
 										<p class="card-text text-black-50 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat</p>
 									</div>
 									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 15.000</div>
+										<div class="badge alert-primary">{{ $w->harga }}</div>
 										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
 									</div>
 								</div>
 							</div>
+							@endforeach
 
-							<!-- Course 2
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="/portfolio-single"><img class="card-img-top" src="demos/course/images/courses/kasongan.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="portfolio-single-thumbs.html">Desa Wisata Kasongan</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Kasongan Kec. Kasihan, Bantul, Daerah Istimewa Yogyakarta 55184</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
-										<p class="card-text text-black-50 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 18.000</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 3
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/manding.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Manding</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Parangtritis km 11, atau tepatnya di  Jl. DR Wahidin Sudiro Husodo, Manding, Sabdodadi, Bantul</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
-										<p class="card-text text-black-50 mb-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla natus mollitia ipsum. Voluptatibus, perspiciatis placeat</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 20.000</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 4
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/tembi.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Tembi</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Parangtritis Jl. Tembi No.KM 8,6, Mriyan, Timbulharjo, Kec. Sewon, Bantul, Daerah Istimewa Yogyakarta 55186</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
-										<p class="card-text text-black-50 mb-1">lorem ipsum</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 18.000</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 5
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/tembi.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Tembi</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Jl. Parangtritis Jl. Tembi No.KM 8,6, Mriyan, Timbulharjo, Kec. Sewon, Bantul, Daerah Istimewa Yogyakarta 55186</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
-										<p class="card-text text-black-50 mb-1">lorem ipsum</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 18.000</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
-
-							<!-- Course 6
-							============================================= -->
-							<div class="col-md-4 mb-5">
-								<div class="card course-card hover-effect border-0">
-									<a href="#"><img class="card-img-top" src="demos/course/images/courses/kembang.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<h4 class="card-title font-weight-bold mb-2"><a href="#">Desa Wisata Kembang Arum</a></h4>
-										<p class="mb-2 card-title-sub text-uppercase font-weight-normal ls1"><a href="#" class="text-black-50">Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551</a></p>
-										<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
-										<p class="card-text text-black-50 mb-1">lorem ipsum</p>
-									</div>
-									<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-										<div class="badge alert-primary">Rp 30.000</div>
-										<a href="#" class="text-dark position-relative"><i class="icon-line2-user"></i> <span class="author-number">1</span></a>
-									</div>
-								</div>
-							</div>
+							
 							<div class="col-md-4 mb-5 center">
 							</div>
 							<div class="col-md-4 mb-5 center">

@@ -166,7 +166,7 @@
 								<li><span><i class="icon-location-arrow"></i>Lokasi:</span> Wisata Taman Sari Jalan Tamanan, Patehan, Kecamatan Kraton, Kota Yogyakarta, Daerah Istimewa Yogyakarta 55133</li>
 								<li><span><i class="icon-clock"></i>Jam Buka:</span> 10.00 - 18.00 WIB</li>
 								<li><span><i class="icon-money-bill-wave"></i>Harga Tiket:</span> Rp 18.000</li>
-								<li><a href="cart.html" class="button button-border button-circle button-dark"><i class="icon-shopping-cart"></i>Beli Tiket</a></li>
+								<li><a href="/cart" class="button button-border button-circle button-dark"><i class="icon-shopping-cart"></i>Beli Tiket</a></li>
 							</ul>
 							<!-- Portfolio Single - Meta End -->
 
@@ -239,213 +239,29 @@
 
 					<div id="related-portfolio" class="owl-carousel portfolio-carousel carousel-widget" data-margin="20" data-pagi="false" data-autoplay="5000" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
 
+						@foreach($wisata as $w)
 						<div class="oc-item">
 							<div class="portfolio-item">
 								<div class="portfolio-image">
 									<a href="/portfolio-single">
-										<img src="images/portfolio/4/1.jpg" alt="Open Imagination">
+										<img src="{{ $w->path }}" alt="Open Imagination">
 									</a>
 									<div class="bg-overlay">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="images/portfolio/full/1.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
+											<a href="{{ $w->path }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
 											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Open Imagination</a></h3>
+									<h3><a href="/portfolio-single">{{ $w->nama_wisata}}</a></h3>
 									<span><a href="#">Media</a>, <a href="#">Icons</a></span>
 								</div>
 							</div>
 						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/2.jpg" alt="Locked Steel Gate">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="images/portfolio/full/2.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="image"><i class="icon-line-plus"></i></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Locked Steel Gate</a></h3>
-									<span><a href="#">Illustrations</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="images/portfolio/4/3.jpg" alt="Mac Sunglasses">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn" data-hover-speed="350">
-											<a href="https://vimeo.com/89396394" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeInUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn" data-hover-speed="350"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Mac Sunglasses</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">UI Elements</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="#">
-										<img src="images/portfolio/4/4.jpg" alt="Morning Dew">
-									</a>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/4.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/4-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Morning Dew</a></h3>
-									<span><a href="#">Icons</a>, <a href="#">Illustrations</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/5.jpg" alt="Console Activity">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/5.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Console Activity</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Media</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/6.jpg" alt="Shake It!">
-									</a>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/7.jpg" alt="Backpack Contents">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="https://www.youtube.com/watch?v=kuceVNBTJio" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											<a href="portfolio-single.html" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Backpack Contents</a></h3>
-									<span><a href="#">UI Elements</a>, <a href="#">Icons</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/8.jpg" alt="Sunset Bulb Glow">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/8.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="image" title="Image"><i class="icon-line-plus"></i></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Sunset Bulb Glow</a></h3>
-									<span><a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/9.jpg" alt="Bridge Side">
-									</a>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/9.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/9-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/9-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Bridge Side</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Icons</a></span>
-								</div>
-							</div>
-						</div>
-						<div class="oc-item">
-							<div class="portfolio-item">
-								<div class="portfolio-image">
-									<a href="/portfolio-single">
-										<img src="images/portfolio/4/10.jpg" alt="Study Table">
-									</a>
-									<div class="bg-overlay">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="https://vimeo.com/91973305" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="iframe"><i class="icon-line-play"></i></a>
-											<a href="/portfolio-single" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single">Study Table</a></h3>
-									<span><a href="#">Graphics</a>, <a href="#">Media</a></span>
-								</div>
-							</div>
-						</div>
-
+						@endforeach
+						
 					</div><!-- .portfolio-carousel end -->
 
 				</div>
