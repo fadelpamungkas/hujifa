@@ -151,14 +151,14 @@
 											<div class="css3-spinner-scaler"></div>
 										</div>
 									</div>
-									<!-- <div class="col-12 form-group">
+									<div class="col-12 form-group">
 										<label>Nama:</label>
 										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Masukkan nama lengkap anda">
 									</div>
 									<div class="col-12 form-group">
 										<label>Email:</label>
 										<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Masukkan Email anda">
-									</div> -->
+									</div>
 									<div class="col-12 form-group">
 										<div class="row">
 											<div class="col-md-6 form-group">
