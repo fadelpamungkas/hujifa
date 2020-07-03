@@ -30,4 +30,4 @@ Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/portfolio-single', 'HomeController@single');
 Route::get('/portfolio/delete/{id}', 'HomeController@delete');
 
-Route::post('/portfolio/daftar', 'HomeController@daftar');
+Route::post('/daftar', 'HomeController@daftar');
