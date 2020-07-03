@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $wisata = DB::table('tempat_wisata')->get();
+        $wisata = DB::table('tempat_wisata')->where('accepted', 1)->get();
         return view('index')->with('wisata', $wisata);
     }
 
@@ -38,9 +38,15 @@ class HomeController extends Controller
         return view('cart');
     }
 
-    public function admin()
+    public function dashboard()
     {
-        return view('admin');
+        $wisata = DB::table('tempat_wisata')->get();
+        $count = DB::select('SELECT COUNT(*) FROM tempat_wisata;');
+        $data = [
+            'wisata'  => $wisata,
+            'count'   => $count
+        ];
+        return view('dashboard')->with($data);
     }
 
     public function about()
@@ -65,7 +71,7 @@ class HomeController extends Controller
 
     public function single()
     {
-        $wisata = DB::table('tempat_wisata')->get();
+        $wisata = DB::table('tempat_wisata')->where('accepted', 1)->get();
         return view('portfolio-single')->with('wisata', $wisata);
     }
 
@@ -83,7 +89,8 @@ class HomeController extends Controller
 				'description' => $request->description,
 				'path' => '/images/'.$file->getClientOriginalName(),
 				'lokasi' => $request->lokasi,
-				'contact_person' => $request->contact
+                'contact_person' => $request->contact,
+                'accpeted' => 0
 			]);
 
 		}
