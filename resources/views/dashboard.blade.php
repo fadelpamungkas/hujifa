@@ -223,11 +223,11 @@
 													  </td>
 													  <td>
 													  		<?php
-															  if ($w->accepted)
-																  echo '<a href="#" class="button button-3d button-mini button-rounded button-black">Ya</a><a href="#" class="button button-3d button-mini button-rounded button-red">Tidak</a>';
-															  else
-																echo '<a href="#" class="button button-3d button-mini button-rounded button-black">Edit</a><a href="#" class="button button-3d button-mini button-rounded button-red">Delete</a>';
-															?>
+															  if ($w->accepted){ ?>																
+															  	<a href="#" class="button button-3d button-mini button-rounded button-black">Edit</a><a href="/portfolio/delete/{{ $w->id_wisata }} " class="button button-3d button-mini button-rounded button-red">Delete</a>
+															<?php } else{ ?>
+																<a href="#" class="button button-3d button-mini button-rounded button-black">Ya</a><a href="#" class="button button-3d button-mini button-rounded button-red">Tidak</a>
+															<?php } ?>
 													  
 													  </td>
 													</tr>

@@ -28,5 +28,6 @@ Route::get('/rating', 'HomeController@rating');
 Route::get('/forms', 'HomeController@forms');
 Route::get('/portfolio', 'HomeController@portfolio');
 Route::get('/portfolio-single', 'HomeController@single');
+Route::get('/portfolio/delete/{id}', 'HomeController@delete');
 
-Route::post('/store', 'HomeController@store');
+Route::post('/portfolio/daftar', 'HomeController@daftar');

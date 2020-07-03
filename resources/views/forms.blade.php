@@ -5,6 +5,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="author" content="SemiColonWeb" />
 
+	<!-- CSRF Token -->
+	<meta name="csrf-token" content="{{ csrf_token() }}">
+
 	<!-- Stylesheets
 	============================================= -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
@@ -144,26 +147,26 @@
 
 						<div class="row">
 							<div class="col-lg-6">
-								<form class="row" action="/store" method="post" enctype="multipart/form-data">
+								<form class="row" action="/daftar" method="post" enctype="multipart/form-data">
 									{{ csrf_field() }}
 									<div class="form-process">
 										<div class="css3-spinner">
 											<div class="css3-spinner-scaler"></div>
 										</div>
 									</div>
-									<div class="col-12 form-group">
+									<!-- <div class="col-12 form-group">
 										<label>Nama:</label>
 										<input type="text" name="jobs-application-name" id="jobs-application-name" class="form-control required" value="" placeholder="Masukkan nama lengkap anda">
 									</div>
 									<div class="col-12 form-group">
 										<label>Email:</label>
 										<input type="email" name="jobs-application-email" id="jobs-application-email" class="form-control required" value="" placeholder="Masukkan Email anda">
-									</div>
+									</div> -->
 									<div class="col-12 form-group">
 										<div class="row">
 											<div class="col-md-6 form-group">
 												<label>Nama Desa Wisata:</label>
-												<input type="text" name="nama_wisata" id="jobs-application-name" class="form-control" value="" placeholder="Masukkan nama Desa Wisat anda">
+												<input type="varchar" name="nama_wisata" id="jobs-application-name" class="form-control" value="" placeholder="Masukkan nama Desa Wisat anda">
 											</div>
 											<div class="col-md-6 form-group">
 												<label>No Telepon:</label>
@@ -173,7 +176,7 @@
 											<div class="w-100"></div>
 											<div class="col-md-12 form-group">
 												<label>Alamat:</label>
-												<input type="text" name="lokasi" id="jobs-application-location" class="form-control" value="" placeholder="Masukkan alamat Desa Wisata anda">
+												<input type="varchar" name="lokasi" id="jobs-application-location" class="form-control" value="" placeholder="Masukkan alamat Desa Wisata anda">
 											</div>
 											<div class="w-100"></div>
 											<div class="col-md-6 form-group">
@@ -182,7 +185,7 @@
 											</div>
 											<div class="col-md-6 form-group">
 												<label>Harga Tiket:</label>
-												<input type="text" name="harga" id="jobs-application-location" class="form-control" value="" placeholder="contoh : 20.000">
+												<input type="integer" name="harga" id="jobs-application-location" class="form-control" value="" placeholder="contoh : 20.000">
 											</div>
 										</div>
 										<div class="form-group">
@@ -196,10 +199,9 @@
 									</div>
 
 									<div class="col-12">
-										<button type="submit" name="btnSubmit" class="btn btn-secondary">Daftar</button>
+										<button type="submit" name="submit" class="btn btn-primary">Daftar</button>
 									</div>
-
-									<input type="hidden" name="prefix" value="jobs-application-">
+									
 								</form>
 							</div>
 

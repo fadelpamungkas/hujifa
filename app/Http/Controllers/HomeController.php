@@ -75,7 +75,7 @@ class HomeController extends Controller
         return view('portfolio-single')->with('wisata', $wisata);
     }
 
-    public function store(Request $request){
+    public function daftar(Request $request){
 		if ($request->hasFile('path')){
 
 			$file = $request->file('path');
@@ -90,12 +90,18 @@ class HomeController extends Controller
 				'path' => '/images/'.$file->getClientOriginalName(),
 				'lokasi' => $request->lokasi,
                 'contact_person' => $request->contact,
-                'accpeted' => 0
+                'rating' => 0,
+                'accepted' => 0
 			]);
 
 		}
 
-		return redirect('/');
-	}
+		return redirect('/portfolio');
+    }
+    
+    public function delete($id){
+        DB::table('tempat_wisata')->where('id_wisata', $id)->delete();
+        return redirect('/portfolio');
+    }
 
 }
