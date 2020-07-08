@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB; 
+use App\Wisata;
 
 class HomeController extends Controller
 {
@@ -64,15 +65,21 @@ class HomeController extends Controller
         return view('forms');
     }
 
+    public function profile()
+    {
+        return view('profile');
+    }
+
     public function portfolio()
     {
         return view('portfolio');
     }
 
-    public function single()
+    public function single($id)
     {
-        $wisata = DB::table('tempat_wisata')->where('accepted', 1)->get();
-        return view('portfolio-single')->with('wisata', $wisata);
+        // $wisata = DB::table('tempat_wisata')->where('id_wisata', $id)->first();
+        $wisata = Wisata::find($id)->first();
+        return view('portfolio-single/{id}')->with('wisata', $wisata);
     }
 
     public function daftar(Request $request){
