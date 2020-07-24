@@ -126,316 +126,35 @@
 
 					<!-- Portfolio Items
 					============================================= -->
+					
 					<div id="portfolio" class="portfolio row grid-container gutter-20" data-layout="fitRows">
-
+						@foreach($wisata as $wisata)
 						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
 							<div class="grid-inner">
 								<div class="portfolio-image">
 									<div class="fslider" data-arrows="false">
 										<div class="flexslider">
 											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tamansari.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tamansari1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tamansari2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tamansari3.jpg" alt="Shake It"></a></div>
+												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="{{ $wisata->path }}" alt="Shake It"></a></div>
 											</div>
 										</div>
 									</div>
 									<div class="bg-overlay" data-lightbox="gallery">
 										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/tamansari.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/tamansari1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tamansari2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tamansari3.jpg" class="d-none" data-lightbox="gallery-item"></a>
+											<a href="{{ $wisata->path }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
 											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
 										</div>
 										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
 									</div>
 								</div>
 								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Desa Wisata Tamansari</a></h3>
-									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
+									<h3><a href="/portfolio-single">{{ $wisata->nama_wisata }}</a></h3>
+									<h6><a href="/portfolio-single/{{ $wisata->id_wisata }}">{{ $wisata->lokasi }}</a></h6>
 								</div>
 							</div>
 						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tembi.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tembi1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tembi2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tembi3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/tembi.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/tembi1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tembi2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tembi3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Desa Wisata Tembi</a></h3>
-									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/kasongan.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/kasongan1.png" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/Kasongan2.png" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/Kasongan3.png" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/kasongan.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/kasongan1.png" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/kasongan2.png" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/kasongan3.png" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Desa Wisata Kasongan</a></h3>
-									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tanjung.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tanjung1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tanjung2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/tanjung3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/tanjung.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/tanjung1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tanjung2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/tanjung3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Desa Wisata Tajung</a></h3>
-									<span><a href="tel:+62857123456">Hubungi : +62857123456</a></span>
-								</div>
-							</div>
-						</article>
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
-
-						<article class="portfolio-item col-lg-3 col-md-4 col-sm-6 col-12 pf-graphics pf-illustrations">
-							<div class="grid-inner">
-								<div class="portfolio-image">
-									<div class="fslider" data-arrows="false">
-										<div class="flexslider">
-											<div class="slider-wrap">
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-1.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-2.jpg" alt="Shake It"></a></div>
-												<div class="slide"><a href="/portfolio-single/{{ $wisata->id_wisata }}"><img src="images/portfolio/4/6-3.jpg" alt="Shake It"></a></div>
-											</div>
-										</div>
-									</div>
-									<div class="bg-overlay" data-lightbox="gallery">
-										<div class="bg-overlay-content dark" data-hover-animate="fadeIn">
-											<a href="images/portfolio/full/6.jpg" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350" data-lightbox="gallery-item"><i class="icon-line-stack-2"></i></a>
-											<a href="images/portfolio/full/6-1.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-2.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="images/portfolio/full/6-3.jpg" class="d-none" data-lightbox="gallery-item"></a>
-											<a href="/portfolio-single/{{ $wisata->id_wisata }}" class="overlay-trigger-icon bg-light text-dark" data-hover-animate="fadeInDownSmall" data-hover-animate-out="fadeOutUpSmall" data-hover-speed="350"><i class="icon-line-ellipsis"></i></a>
-										</div>
-										<div class="bg-overlay-bg dark" data-hover-animate="fadeIn"></div>
-									</div>
-								</div>
-								<div class="portfolio-desc">
-									<h3><a href="/portfolio-single/{{ $wisata->id_wisata }}">Shake It!</a></h3>
-									<span><a href="#">Illustrations</a>, <a href="#">Graphics</a></span>
-								</div>
-							</div>
-						</article>
+						@endforeach
+						
 
 					</div><!-- #portfolio end -->
 

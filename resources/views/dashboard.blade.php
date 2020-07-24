@@ -179,8 +179,8 @@
 									<div class="tabs tabs-alt clearfix" id="tabs-profile">
 
 										<ul class="tab-nav clearfix">
-											<li><a href="#tab-feeds"><i class="icon-rss2"></i> Verifikasi</a></li>
-											<li><a href="#tab-posts"><i class="icon-pencil2"></i> Statistik</a></li>
+											<li><a href="dashboard#tab-feeds"><i class="icon-rss2"></i> Verifikasi</a></li>
+											<li><a href="dashboard#tab-posts"><i class="icon-pencil2"></i> Statistik</a></li>
 										</ul>
 
 										<div class="tab-container">

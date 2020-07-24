@@ -65,7 +65,7 @@
 									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="/about" class="nav-link">Tentang Kami</a>
+									<a href="/" class="nav-link">Tentang Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -170,7 +170,23 @@
 									</td>
 									<td>
 										<div>
-												<a href="#" class="button button-3d"> Bayar</a>
+                                            <form action="notification" method="post">
+                                                <input  type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                    <button class="button button-3d" type="submit">Bayar</button>
+                                                </form>
+                                                <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+                                      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+                                     <script>
+                                      @if(Session::has('message'))
+                                         var type="{{Session::get('alert-type','info')}}"
+
+                                         switch(type){
+                                        case 'success':
+                                        toastr.success("{{ Session::get('message') }}");
+                }
+                                         @endif
+                                    </script>
 										</div>
 									</td>
 								</tr>

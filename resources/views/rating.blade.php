@@ -67,7 +67,7 @@
 									<a href="/forms" class="nav-link">Daftar</a>
 								</li>
 								<li class="nav-item">
-									<a href="/about" class="nav-link">Tentang Kami</a>
+									<a href="#" class="nav-link">Tentang Kami</a>
 								</li>
 							</ul>
 						</div>
@@ -104,7 +104,7 @@
 									</div>
 									<div class="portfolio-meta bottommargin">
 								<div class="white-section">
-									<label>Start with Default params:</label>
+									<label>Bintang:</label>
 									<input id="input" type="number" class="rating" max="5" data-size="sm">
 								</div>
 										<div class="form-group">
@@ -116,7 +116,23 @@
 										<input type="text" id="jobs-application-botcheck" name="jobs-application-botcheck" value="" />
 									</div>
 									<div class="col-12">
-										<button type="submit" name="jobs-application-submit" class="btn btn-secondary">Submit</button>
+										<form action="notification1" method="post">
+                                            <input  type="hidden" name="_token" value="{{ csrf_token() }}">
+                                                <button class="button button-3d" type="submit">Submit</button>
+                                            </form>
+                                            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+                                    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+                                <script>
+                                  @if(Session::has('message'))
+                                     var type="{{Session::get('alert-type','info')}}"
+
+                                     switch(type){
+                                    case 'success':
+                                    toastr.success("{{ Session::get('message') }}");
+            }
+                                     @endif
+                                </script>
 									</div>
 
 									<input type="hidden" name="prefix" value="jobs-application-">

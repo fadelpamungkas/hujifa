@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 03, 2020 at 05:21 PM
+-- Generation Time: Jul 24, 2020 at 08:49 AM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.3.11
 
@@ -75,7 +75,9 @@ INSERT INTO `tempat_wisata` (`id_wisata`, `nama_wisata`, `lokasi`, `contact_pers
 (3, 'Desa Wisata Kasongan', 'Jl. Parangtritis km 11, atau tepatnya di  Jl. DR Wahidin Sudiro Husodo, Manding, Sabdodadi, Bantul', '08312313191319', 20000, 'demos/course/images/categories/kasongan.jpg', 0, 'Desa wisata Manding Bantul merupakan desa wisata sentral kerajinan kulit. Jadi kalau di Bandung ada Cibaduyut, di Jogja ada Manding. Awal mula kerajinan kulit muncul sekitar tahun 1947 yang diprakarsai oleh tiga orang pemuda. Awalnya ketiganya merupakan karyawan di perusahaan kulit yang memproduksi pakaian dan pelana, hingga akhirnya mereka berinisiatif untuk membuka usaha sendiri. Hingga kini, sudah ada lebih dari 100 pengrajin kulit yang ada di desa Manding.', 1),
 (4, 'Desa Wisata Tembi', 'Jl. Parangtritis Jl. Tembi No.KM 8,6, Mriyan, Timbulharjo, Kec. Sewon, Bantul, Daerah Istimewa Yogyakarta 55186', '081231231231', 18000, 'demos/course/images/courses/tembi.jpg', 0, 'Desa Wisata Tembi memiliki Museum Rumah Budaya Tembi atau Tembi House of Culture yang merupakan sebuah museum yang mengkhususkan pada kebudayaan jawa. Museum Rumah Budaya Tembi memiliki koleksi yang cukup variatif, diantaranya peralatan tradisional masyarakat jawa seperti peralatan dapur (tungku, dandang), persenjataan masyarakat jawa (keris, tombak), peralatan untuk bertani (bajak), peralatan seni (gamelan, batik). Tak ketinggalan pula koleksi peninggalan berupa foto-foto jaman dahulu, poster kuno, sepeda maupun sepeda motor kuno.', 1),
 (5, 'Desa Wisata Kembang Arum', 'Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551', '08132131284712401', 30000, 'demos/course/images/courses/kembang.jpg', 0, 'Desa wisata yang menyuguhkan panorama alam pedesaan yang hijau dihiasi gemericiknya air pegunungan sangat ideal sebagai tempat outbond maupun sekedar menikmati seni budaya dan alam pedesaan.\r\n\r\nTerletak di pedesaan di kawasan Lintas Merapi, desa Kembangarum dapat ditempuh sekitar 45 menit dari kota Jogja dengan kendaraan bermotor. Setelah melewati jalan berliku-liku, sebuah papan nama kecil menyambut kami sebelum memasuki desa Kembangarum.', 1),
-(6, 'Desa Wisata Kembang Arum', 'Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551', '081382393819', 18000, 'demos/course/images/courses/kembang.jpg', 0, '', 0);
+(6, 'Desa Wisata Kembang Arum', 'Kembangarum 13, Donokerto, Turi, Wetan Kali, Donokerto, Kec. Turi, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55551', '081382393819', 18000, 'demos/course/images/courses/kembang.jpg', 0, '', 0),
+(12, 'sakdsadkadakl', 'msakldamdlad', '2318319', 20000, '/images/TnV5B.png', 0, '<p>sadsadnja</p><p>dsandsakdnkad</p>', 0),
+(13, 'Kasongan', 'Alamat Kasongan', '0812345678', 30000, '/images/kasongan.jpeg', 0, '<p>Deskripsi tentang desa wisata kasongan</p>', 0);
 
 -- --------------------------------------------------------
 
@@ -161,7 +163,7 @@ ALTER TABLE `review`
 -- AUTO_INCREMENT for table `tempat_wisata`
 --
 ALTER TABLE `tempat_wisata`
-  MODIFY `id_wisata` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+  MODIFY `id_wisata` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Constraints for dumped tables

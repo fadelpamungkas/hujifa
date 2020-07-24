@@ -65,21 +65,29 @@ class HomeController extends Controller
         return view('forms');
     }
 
-    public function profile()
+    public function pengelolaprofile()
     {
-        return view('profile');
+        return view('profile-pengelola');
+    }
+
+    public function userprofile()
+    {
+        return view('profile-user');
     }
 
     public function portfolio()
     {
-        return view('portfolio');
+        $wisata = DB::table('tempat_wisata')->get();
+        return view('portfolio')->with('wisata', $wisata);
     }
 
-    public function single($id)
+    public function single()
     {
         // $wisata = DB::table('tempat_wisata')->where('id_wisata', $id)->first();
-        $wisata = Wisata::find($id)->first();
-        return view('portfolio-single/{id}')->with('wisata', $wisata);
+        // $wisata = Wisata::find($id)->first();
+        //$single = DB::table('tempat_wisata')->where('id_wisata', $id)->get();
+        $wisata = DB::table('tempat_wisata')->get();
+        return view('portfolio-single')->with('wisata', $wisata);
     }
 
     public function daftar(Request $request){
@@ -110,5 +118,25 @@ class HomeController extends Controller
         DB::table('tempat_wisata')->where('id_wisata', $id)->delete();
         return redirect('/portfolio');
     }
+    
+    public function notification(){
+
+        $notification = array(
+          'message' => 'Tiket telah dikirim ke email anda!',
+          'alert-type' => 'success'
+      );
+
+    return back()->with($notification);
+}
+
+public function notification1(){
+
+    $notification = array(
+      'message' => 'Terimakasih atas review yang anda berikan!',
+      'alert-type' => 'success'
+  );
+
+return back()->with($notification);
+}
 
 }

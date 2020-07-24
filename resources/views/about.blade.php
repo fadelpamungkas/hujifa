@@ -124,43 +124,7 @@
 		============================================= -->
 		<section id="content">
 			<div class="content-wrap">
-				<div class="container clearfix">
-
-					<div class="row col-mb-50 mb-0">
-
-						<div class="col-lg-4">
-
-							<div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-								<h4>Why choose <span>Us</span>.</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-						</div>
-
-						<div class="col-lg-4">
-
-							<div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-								<h4>Our <span>Mission</span>.</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-						</div>
-
-						<div class="col-lg-4">
-
-							<div class="heading-block fancy-title border-bottom-0 title-bottom-border">
-								<h4>What we <span>Do</span>.</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi quidem minus id omnis, nam expedita, ea fuga commodi voluptas iusto, hic autem deleniti dolores explicabo labore enim repellat earum perspiciatis.</p>
-
-						</div>
-
-					</div>
-
-				</div>
+				
 
 				<div class="section m-0">
 					<div class="container clearfix">
@@ -203,7 +167,7 @@
 					<div class="col-md-7 col-padding">
 						<div>
 							<div class="heading-block">
-								<span class="before-heading color">Project Manager</span>
+								<span class="before-heading color">Database Engineer</span>
 								<h3>Muhammad Aji Perdana</h3>
 							</div>
 
@@ -419,7 +383,7 @@
 					<div class="col-md-7 col-padding" style="background-color: #F5F5F5;">
 						<div>
 							<div class="heading-block">
-								<span class="before-heading color">Programmer</span>
+								<span class="before-heading color">Backend Developer</span>
 								<h3>Fadel Pamungkas</h3>
 							</div>
 

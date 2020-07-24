@@ -26,9 +26,12 @@ Route::get('/dashboard', 'HomeController@dashboard');
 Route::get('/about', 'HomeController@about');
 Route::get('/rating', 'HomeController@rating');
 Route::get('/forms', 'HomeController@forms');
-Route::get('/profile', 'HomeController@profile');
+Route::get('/pengelolaprofile', 'HomeController@pengelolaprofile');
+Route::get('/userprofile', 'HomeController@userprofile');
 Route::get('/portfolio', 'HomeController@portfolio');
-Route::get('/portfolio-single/{id}', 'HomeController@single');
+Route::get('/portfolio-single', 'HomeController@single');
 Route::get('/portfolio/delete/{id}', 'HomeController@delete');
+Route::post('/notification','HomeController@notification');
+Route::post('/notification1','HomeController@notification1');
 
 Route::post('/daftar', 'HomeController@daftar');
